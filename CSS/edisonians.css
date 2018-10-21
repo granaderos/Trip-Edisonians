@@ -1,0 +1,408 @@
+html {
+	background-image: url("images/t.jpeg");
+}
+
+#log_in_body {
+	background-color: Gray;
+	border: 20px solid Black;
+	font-size: 20px;
+	font-family: Tahoma, Freesans, Arial, sans-serif;
+	padding: 20px;
+	margin: 50px;
+	height: 900px;
+}		
+
+#home_body {
+	background-color: Gray;
+	border: 20px solid Black;
+	font-size: 20px;
+	font-family: Tahoma, Freesans, Arial, sans-serif;
+	padding: 20px;
+	width: 900px;
+	margin: 0 auto;
+}
+
+#container {
+	background-color: Gray;
+	color: balck;
+}
+
+h1 {
+	text-align: center;
+	background: Yellow;
+	color: Red;
+}
+.note {
+	font-style: italic;
+	text-decoration: underLine;
+	font-size: 13px;
+	color: Red;
+}	
+
+#back_right {
+	width: 620px;
+	height: 500px;
+	float: right;
+	margin-left: 15px;
+}
+fieldset {
+	color: White;	
+	background-color: Black;
+}
+legend {
+	color: Yellow;
+	background: Green;
+}
+
+.input1 {
+	background-color: Black;
+	color: White;
+	font-style: italic;
+	border-radius: 10px;
+}
+input {
+	border-radius: 10px;
+}
+
+fieldset {
+	padding : 20px;
+	border : 5px solid White;
+}
+#h2_quotes_title {
+	font-size : 30px;
+	text-align: center;
+	font-family: purisa, arial;
+	font-weight: bold;
+	text-shadow: 10 10 10 0 white;
+	color: white;
+}
+
+#quotes_to_add_form{
+	width: 500px;
+	margin: 0 auto;
+}
+
+.quotes_to_add_class {
+	margin : 0px 60px 0px 60px;
+	text-indent : 10em;
+	font-style : italic;
+	font-family: purisa, arial;
+	font-weight: bold;
+	background : #ccc;
+	border-left : 2px dashed White;
+	border-right : 2px dashed White;
+	border-top : 2px dashed White;
+	font-size : 15px;
+	padding : 20px;
+	text-align : justify;
+	border-radius : 50px;
+	color: black;
+	
+}
+
+#quotes_div, #images_div, #contacts_div, #birthdays_div, #events_div{
+	background-color : Black;
+	border : 5px solid White;
+	padding : 20px;
+	margin-left : 60px;
+	margin-right : 60px;
+	margin-bottom: 40px;
+	border-radius : 50px;
+	color: white;
+}
+
+#quotes_to_add {
+	background: #ccc;
+	color: black;
+	font-family: purisa, arial;
+	font-size : 15px;
+	text-align : center;
+}
+
+#display_contacts_table {
+	color: black;
+	background: #ccc;
+	width: 700px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 17px;
+}
+
+#title {
+	text-align : center;
+	font-size : 30px;
+	font-weight : bold;
+	color : White;
+	background : Black;
+}
+#list, #home_a, #deactivate_account_a, #contacts_a, #quotes_a, #images_a, #birthdays_a, #events_a ,#message_center_a  {
+	font-size: 15px;
+	border-radius : 40px;
+	color: Black;
+	font-weight : bold;
+	cursor : pointer;
+}
+
+#deactivate_account_a {
+	float: right;
+	background: white;
+}
+
+#images_div{
+	background-color : Black;
+	border : 5px solid White;
+	padding : 10px;
+	margin-left : 60px;
+	margin-right : 60px;
+	top: 150px;
+	left : 0px;
+	z-index : 1;
+	border-radius : 50px;
+}
+
+#reset, #log_in, #continue {
+	color : green;
+	background : yellow;
+	border-radius : 0px;
+}
+#reset:hover, #log_in:hover, #continue:hover {
+	font-size : 20px;
+	color: red;
+	cursor : pointer; 
+}
+
+footer{
+	font-size: 10px;
+	text-align : center;
+}
+
+.warning{
+    background: red;
+    color: white;
+    text-align: center;
+    font-size : 15px;
+    position: absolute;
+ }
+
+#tabs_ul {
+	background: url("cssImages/t.jpeg");
+}
+/*
+#li_updates:hover, #li_birthday:hover {
+	background: red; 
+}
+
+#li_ediQuotes:hover, #li_event:hover {
+	background: yellow;
+}
+
+#li_images:hover, #li_deactivate_account:hover {
+	background: green;
+}
+*/
+
+#display_contact_table {
+	color: black;
+}
+
+#add_contact_div, #edit_contact_div{ 
+	width: 500px;
+	background: black;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	text-shadow: 10px 10px 10px 10px white;
+	font-size: 15px;
+}
+
+.for_user_class {
+	font-family: Arial, sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+	/*text-decoration: underLine;*/
+	color: gray;
+}
+
+.for_current_time {
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	font-weight: normal;
+	color: gray;
+}
+
+.font_size_10 {
+	font-size: 10px;
+}
+
+.pointer_cursor:hover {
+	cursor: pointer;
+	background: black;
+	color: white;	
+}
+
+.username_span {
+	text-decoration: underLine;
+	color: white;
+	background: black;
+	font-weight: bold;
+	font-family: purisa;
+	font-size: 10px;
+}
+
+table#months{
+	font-size: 13px;
+	width: 700px;
+	margin: 0 auto;
+	background: #ccc;
+	padding: 10px;
+	color: black;
+}
+
+#message_center_div {
+	height: 500px;
+	background-color : Black;
+	border : 5px solid White;
+	padding : 20px;
+	margin-left : 60px;
+	margin-right : 60px;
+	margin-bottom: 40px;
+	border-radius : 50px;
+	color: white;
+}
+
+#message_box_div {
+	float: left;
+}
+
+#message_field, #private_message_field {
+	width: 250px;
+	height: 80px;
+	font-size: 13px;
+}
+
+#message_center_area {
+	float: right;
+	background: gray;
+	width: 390px;
+	height: 500px;
+	font-size: 15px;
+	overflow-X: none;
+	overflow-Y: auto;
+	padding: 5px;
+	box-shadow: 2px 2px 10px 2px #ccc;
+	margin-right: 0px;
+}
+
+#online_users_table {
+	font-size: 13px;
+}
+
+#edisonians_online_div {
+	height: 400px;
+	width: 280px;
+	overflow-y: scroll;
+}
+
+.user_online_class:hover {
+	cursor: pointer;
+	text-decoration: underLine;
+	color: #ccc;
+}
+
+#send_private_message_div {
+	position: absolute;
+	background: gray;
+	z-index: 0;
+}
+
+.message_option{
+	font-size: 10px;
+	color: yellow;
+	text-align: center;
+}
+
+.message_option:hover{
+	background: gray;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 20px;
+}
+
+.overlay_class {
+	padding: 90px;
+	opacity: 0.9;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background-color: gray;
+	z-index: 5000;
+	width: 900px;
+	height: 500px;
+	margin-left: 60px;
+	margin-right: 60px;
+	border: 50px solid white;
+	overflow: scroll;
+}
+
+div .received_message, .sent_message {
+	width: 800px;
+	margin: 0 auto;
+	font-family: purisa, arial;
+	font-weight: bold;
+	background : black;
+	border-left : 2px dashed White;
+	border-right : 2px dashed White;
+	border-top : 2px dashed White;
+	font-size : 15px;
+	padding : 20px;
+	border-radius : 50px;
+	color: white;
+}
+
+.exit_button {
+	top: 300px;
+	left: 900px;
+	border-radius: 50px;
+	background: red;
+	color: white;
+}
+
+#private_message_p {
+	text-indent: 3em;
+	font-style: italic;
+}
+
+#send_private_message_p {
+	width: 600px;
+	margin: 0 auto;
+	background: black;
+	color: white;
+	padding: 20px;
+	border-radius: 20px;
+}
+
+#add_event_div {
+	width: 500px;
+	opacity: 0.9;
+	background: gray;
+	border: 5px solid black;
+	position: fixed;
+	z-index: 500;
+	top: 0;
+	left: 0;
+	padding: 15px;
+}
+
+/*-- HOME / UPDATES */
+
+#post_div_container {
+	width: 600px;
+	margin: 0 auto;
+	background: #cae;
+}
+
+#post_textarea {
+	resize: none;
+	width: 300px;
+	margin: 0 auto;
+}

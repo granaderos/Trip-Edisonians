@@ -1,0 +1,1 @@
+<?php	include "../CLASSES/Data_functions.php";		$current_user_id = $_POST["current_user_id"];		$execute_get = new data_functions();	$execute_get->get_users_on_line($current_user_id);	?>
